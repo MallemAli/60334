@@ -1,0 +1,49 @@
+img {
+    margin:auto;
+}
+body {
+    font-family: Helvetica;
+    color:white;
+}
+#loginDetails {
+    background-color:#005493;
+    font-size:20px;
+    margin-top:10px;
+    margin-bottom:25px;
+    margin-right:600px;
+    margin-left:600px;
+    padding: 10px 20px;
+}
+label {
+    font-size:20px;
+}
+p {
+    font-family: Helvetica;
+    font-size: 20px;
+}
+input,select {
+    width: 100%;
+    padding: 15px 15px;
+    margin: 7px 0;
+    box-sizing: border-box;
+    border: 3px solid #E62226;
+    outline: none;
+}
+#button {
+    background-color: #E62226;
+    font-size:20px;
+    font-family: Helvetica;
+    color:white;
+}
+#button:hover {
+    background-color: #DB9592;
+}
+footer{
+    background-color: #005493;
+    padding: 1em;
+	margin-top:30px;
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+	bottom: 0;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Borrow Books</title>
+
+  <link rel="stylesheet" type="text/css" href="./css/mainpage.css">
+  <center><img src ="./pictures/logo.png" alt="MPL Logo"></center>
+</head>
+
+<body>
+<table class="navbar">
+	<tr>
+		<th><a href="https://mallem.000webhostapp.com/project/mainpage.php">Home</a></th>
+		<th><a href="https://mallem.000webhostapp.com/project/catalogue.php">Book Catalogue</a></th>
+		<th id="admin1"><a href="https://mallem.000webhostapp.com/project/addbooks.html">Add Books</a></th>
+		<th id="admin2"><a href="https://mallem.000webhostapp.com/project/removebooks.html">Remove Books</a></th>
+		<th id="user1"><a class="active" href="https://mallem.000webhostapp.com/project/borrowbooks.html">Borrow Books</a></th>
+		<th><a href="https://mallem.000webhostapp.com/project/logout.php">Logout</a></th>
+	</tr>
+</table>
+
+</br></br>
+<form action="borrowbooks.php" method="post">
+	<label>Please use the book catalogue to get the book ID of you book(s) you want to place on hold and enter them here.</label></br>
+	<label for="book_id">Book ID: </label>
+	<input type="number" name="book_id" required/></br>
+	<input id="button" type="submit" name="submit" value="Place Book on Hold">
+</form></br></br></br>
+
+<footer>
+    Copyright &copy 2018: Mallem Public Library
+</footer>
+</body>
+</html>
